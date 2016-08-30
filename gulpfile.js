@@ -41,7 +41,7 @@ var
 	
 	html = {
 		in: source + '*.html',
-		watch: [source + '*.html', 'templage/**/*'],
+		watch: [source + '*.html', source + 'template/**/*'],
 		out: dest,
 		context: {
 			devBuild: devBuild,
